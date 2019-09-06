@@ -1,0 +1,5 @@
+
+; CMS Blog
+; -------
+
+dependencies[] = cms_blog

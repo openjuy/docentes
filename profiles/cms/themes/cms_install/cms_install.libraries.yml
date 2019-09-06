@@ -1,0 +1,9 @@
+# Global.
+global:
+  css:
+    theme:
+      install-page.css: {}
+  js:
+    install-page.js: {}
+  dependencies:
+    - core/jquery

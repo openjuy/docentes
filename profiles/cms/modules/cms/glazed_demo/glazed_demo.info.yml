@@ -1,0 +1,41 @@
+name: Glazed Demo
+type: module
+description: Glazed Demo Design And Content
+package: Glazed Drupal CMS
+version: 8.x-1.0-dev
+core: 8.x
+hidden: true
+default_content:
+    menu_link_content:
+      # Homepage
+      - 843122a8-11f1-41c3-a720-16cf34c22b40
+      # Blog Links
+      - f2b520f7-231f-4df8-8c99-ddd094f8c38c
+      - 18ed348f-4aff-41af-b31b-4cc4b022381a
+      - 30dfc743-cba4-4748-b70f-aa5f0895300c
+      - 56359af4-94e3-4b3d-9c3c-caedc44162f1
+      - b32d64d1-b9a4-4581-a7b1-4257575de7f4
+      - 9fed5a6d-2e99-4d43-803f-d986bac578ff
+      - ea420aa7-da87-4512-b021-34f26445442a
+      # Portfolio Links
+      - e6aefb8b-eb09-4184-a421-1c78779e7ec4
+      - 00f6266f-eafe-42a5-828a-95dceab1a3b2
+      - 065336c0-eb85-419b-ba26-dd8984a31b70
+      - 20426f32-ffd7-4a05-b0d0-ebcfc374a173
+      - 291e64a9-1897-4c28-b22b-4f6c146ac5d2
+      - 5addb9ab-f9b4-4138-8e16-bf4ea3f99b5a
+      - 60a05c8d-7746-476e-bc2d-33a7bad722ba
+      - 62331681-5f3e-41be-8b7a-6b27aeb8a6b5
+      - 7f94e6e4-b848-473d-8561-090396d90179
+      - d1c716a4-8d68-4d5f-a8f0-825665d77f5d
+      - c8504b27-42a6-480f-9df4-9b44a0ad3d5a
+      - c50d46bc-eb79-436d-a172-83edea251369
+      - 7120acd8-b67b-4149-9b51-8c3ce7fd2859
+      - babab3ea-202a-4f82-9655-40d5b4c86ae5
+      - 9928cf0c-8da1-41d5-920e-7ec97175e71f
+      - be8118a3-ff7c-49a6-a049-98735b10e83b
+      # Events News
+      - 51b34614-5d30-4d8b-a2c5-c76249d8885f
+      - d523ca93-e8dd-4556-96fa-e637003f41e3
+    node:
+      - 36ebca91-636a-48d7-b7a7-29c568ddecd4

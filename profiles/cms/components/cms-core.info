@@ -1,0 +1,4 @@
+
+; CMS Core
+; ----
+dependencies[] = cms_core

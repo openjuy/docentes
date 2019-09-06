@@ -1,0 +1,5 @@
+
+; CMS Events
+; -------
+
+dependencies[] = cms_events

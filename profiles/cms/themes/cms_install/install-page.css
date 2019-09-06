@@ -1,0 +1,86 @@
+/**
+ * @file
+ * Installation styling.
+ *
+ * By some reasons this file is loaded after Seven's one.
+ */
+body.install-page {
+  background: #0180ef;
+  background: #0180ef url("logo-glazed.svg") no-repeat left center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+body.install-page .page-header {
+  border-bottom: double 3px #0180ef;
+  margin-bottom: 10px;
+  background: transparent url("logo-sooperthemes.svg") no-repeat 93% 45%;
+  background-size: 15% auto;
+}
+
+body.install-page .button--primary {
+  background: #0180ef;
+  border-color: #0180ef;
+  text-shadow: none;
+  border-radius: 0;
+  color: #fff;
+  padding: 6px 16px;
+}
+
+body.install-page .page-title {
+  color: #0180ef;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+body.install-page .task-list .is-active {
+  background-color: #0180ef;
+  color: #fff;
+}
+
+body.install-page .task-list .is-active:after {
+  border-left-color: #0180ef;
+}
+
+body.install-page .progress__track {
+  height: 12px;
+}
+
+body.install-page .progress__bar {
+  height: 12px;
+  border-color: #0180ef;
+  background: #0180ef;
+}
+
+.cms-features-form .form-type-checkbox {
+  padding: 5px 10px;
+}
+
+.cms-features {
+  border-bottom: solid 1px #ccc;
+}
+
+.cms-features .form-type-checkbox {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.cms-features .form-type-checkbox:hover {
+  background-color: #f5f5f5;
+}
+
+.cms-features .form-type-checkbox.cms-feature-selected {
+  background-color: #afe9f6;
+  transition: background-color 300ms linear;
+}
+
+@media all and (min-width: 48em) { /* 768px */
+   .task-list li {
+    padding: 0.65em 1em 0.65em 3.85em !important;
+   }
+  [dir="rtl"] .task-list li {
+    padding: 0.65em 3.85em 0.65em 1em !important;
+  }
+}

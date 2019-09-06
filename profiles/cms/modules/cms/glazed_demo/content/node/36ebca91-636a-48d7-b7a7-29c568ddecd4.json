@@ -1,0 +1,145 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/home?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_page"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_page\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_page\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "nid": [
+        {
+            "value": 1
+        }
+    ],
+    "uuid": [
+        {
+            "value": "36ebca91-636a-48d7-b7a7-29c568ddecd4"
+        }
+    ],
+    "vid": [
+        {
+            "value": 1
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_page"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Home",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_page\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5a6d1b05-7bc5-4e73-8492-1bd5d5fedc7f"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_page\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "5a6d1b05-7bc5-4e73-8492-1bd5d5fedc7f"
+                    }
+                ]
+            }
+        ]
+    },
+    "created": [
+        {
+            "value": 1501083013,
+            "lang": "en"
+        }
+    ],
+    "changed": [
+        {
+            "value": 1501083013,
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1501083013
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<div class=\"az-element az-section\" data-az-id=\"b2\" data-azat-style=\"margin-top:60px;\" data-azb=\"az_section\" style=\"margin-top:60px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"b3\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"b4\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"b5\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h1>Glazed Drupal<\/h1>\r\n\r\n\t\t\t\t\t\t<h2>Try the Glazed Drupal Experience.<\/h2>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"b6\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<p>Enjoy a fully featured Drupal CMS with a modern theme. Glazed Drupal CMS includes content types, features, demo content, and the <em>free edition<\/em> of Glazed Premium Theme.<\/p>\r\n\r\n\t\t\t\t\t\t<p>Glazed theme is the most powerful theme available for Drupal. With 200 theme settings Glazed can easily be colored and customized. No coding needed!<\/p>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"b7\" data-azat-style=\"margin-top:15px;\" data-azb=\"button-3d\" style=\"margin-top:15px;\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-md btn-primary\" href=\"http:\/\/www.drupal.org\/project\/cms\" target=\"_self\" type=\"button\">Download Glazed CMS!<\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-8\" data-az-id=\"b8\" data-azat-width=\" 2\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-image\" data-az-id=\"b9\" data-azat-height=\"\" data-azat-image=\"http:\/\/i.imgur.com\/DBNsvif.jpg\" data-azb=\"az_image\"><img alt=\"\" src=\"http:\/\/i.imgur.com\/DBNsvif.jpg\" style=\"width: 100%;\" title=\"\"><\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\r\n\t\t<hr class=\"az-element az-separator\" data-az-id=\"b10\" data-azb=\"az_separator\" style=\"border: none;\"><\/div>\r\n<\/div>\r\n\r\n<div class=\"az-element az-section\" data-az-id=\"b11\" data-azat-style=\"margin-top:60px;\" data-azb=\"az_section\" style=\"margin-top:60px;\">\r\n\t<div class=\"az-ctnr container\" data-azcnt=\"true\">\r\n\t\t<div class=\"az-element az-row row  az-row--sm\" data-az-id=\"b12\" data-azat-device=\"sm\" data-azb=\"az_row\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-8\" data-az-id=\"b13\" data-azat-width=\" 2\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-image\" data-az-id=\"b14\" data-azat-height=\"\" data-azat-image=\"http:\/\/i.imgur.com\/EHMdH2sh.jpg\" data-azb=\"az_image\"><img alt=\"\" src=\"http:\/\/i.imgur.com\/EHMdH2sh.jpg\" style=\"width: 100%;\" title=\"\"><\/div>\r\n\t\t\t<\/div>\r\n\r\n\t\t\t<div class=\"az-element az-ctnr az-column  col-sm-4\" data-az-id=\"b15\" data-azat-width=\"1\/3\" data-azb=\"az_column\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"b16\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<div>\r\n\t\t\t\t\t\t<h1>Glazed Free<\/h1>\r\n\r\n\t\t\t\t\t\t<h2>By Sooperthemes<\/h2>\r\n\t\t\t\t\t<\/div>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element\" data-az-id=\"b17\" data-azat-style=\"margin-top:0px;margin-bottom:0px;padding-top:0px;padding-bottom:0px;\" data-azb=\"az_unknown\" data-azcnt=\"true\">&nbsp;<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-text\" data-az-id=\"b18\" data-azb=\"az_text\" data-azcnt=\"true\" style=\"\">\r\n\t\t\t\t\t<p>Visual Theme Settings, Unlimited Colors, Translation, SEO &amp; SEM Optimized. Sooperthemes has over 10 years experience in Drupal theming and this is our flagship theme.<\/p>\r\n\r\n\t\t\t\t\t<p>Glazedlacks some of the advanced features from the premium theme but is still easily the most advanced free theme available today!<\/p>\r\n\t\t\t\t<\/div>\r\n\r\n\t\t\t\t<div class=\"az-element az-template\" data-az-id=\"b19\" data-azat-style=\"margin-top:15px;\" data-azb=\"button-3d\" style=\"margin-top:15px;\">\r\n\t\t\t\t\t<div data-azcnt=\"true\"><a class=\"btn btn-md btn-primary\" href=\"http:\/\/www.sooperthemes.com\/drupal-themes\/glazed\" target=\"_self\" type=\"button\">Learn More About   GlazedFree  Free Free <\/a><\/div>\r\n\t\t\t\t<\/div>\r\n\t\t\t<\/div>\r\n\t\t<\/div>\r\n\t<\/div>\r\n<\/div>\r\n",
+            "format": "full_html",
+            "summary": null,
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{#
+/**
+ * @file
+ * Theme implementation to display a Drupal installation page.
+ *
+ * @TODO: Add Sooper themes logo here.
+ */
+#}
+<div class="layout-container">
+
+  <header role="banner" class="page-header">
+    {% if site_name %}
+      <h1 class="page-title">
+        {{ site_name }}
+        {% if site_version %}
+          <span class="site-version">{{ site_version }}</span>
+        {% endif %}
+      </h1>
+    {% endif %}
+  </header>
+
+  {% if page.sidebar_first %}
+    <aside class="layout-sidebar-first" role="complementary">
+      {{ page.sidebar_first }}
+    </aside>
+  {% endif %}
+
+  <main role="main">
+    {% if title %}
+      <h2 class="heading-a">{{ title }}</h2>
+    {% endif %}
+    {{ page.highlighted }}
+    {{ page.content }}
+  </main>
+
+</div>
+

@@ -1,0 +1,102 @@
+name: Glazed CMS
+type: profile
+description: Drupal distribution with production ready CMS features.
+core: 8.x
+version: 8.x-1.0
+install:
+# CMS Core module
+  - cms_core
+# Core modules.
+  - automated_cron
+  - block
+  - block_content
+  - breakpoint
+  - ckeditor
+  - comment
+  - color
+  - contextual
+  - contact
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - file
+  - field_ui
+  - image
+  - menu_ui
+  - menu_link_content
+  - node
+  - options
+  - page_cache
+  - path
+  - redirect
+  - search
+  - taxonomy
+  - update
+  - views
+  - views_ui
+# Contributed modules
+  - pathauto
+  - libraries # this needs to be here to tell Drupal our libraries are in /profiles/cms/libraries and not /libraries
+  - admin_toolbar
+  - admin_toolbar_tools
+themes:
+  - glazed
+  - seven
+distribution:
+  name: Glazed Drupal CMS
+  install:
+    theme: cms_install
+config:
+  install:
+    - automated_cron.settings
+    - block.block.seven_breadcrumbs
+    - block.block.seven_content
+    - block.block.seven_local_actions
+    - block.block.seven_login
+    - block.block.seven_messages
+    - block.block.seven_page_title
+    - block.block.seven_primary_local_tasks
+    - block.block.seven_secondary_local_tasks
+    - block_content.type.basic
+    - comment.type.comment
+    - core.entity_form_mode.user.register
+    - core.entity_form_display.block_content.basic.default
+    - core.entity_form_display.comment.comment.default
+    - core.entity_form_display.node.article.default
+    - core.entity_form_display.user.user.default
+    - core.entity_form_display.user.user.register
+    - core.entity_view_display.block_content.basic.default
+    - core.entity_view_display.comment.comment.default
+    - core.entity_view_display.node.article.default
+    - core.entity_view_display.node.article.rss
+    - core.entity_view_display.node.article.teaser
+    - core.entity_view_display.user.user.compact
+    - core.entity_view_display.user.user.default
+    - editor.editor.basic_html
+    - editor.editor.full_html
+    - field.field.block_content.basic.body
+    - field.field.comment.comment.comment_body
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_image
+    - field.field.node.article.field_tags
+    - field.field.user.user.user_picture
+    - field.storage.node.comment
+    - field.storage.node.field_image
+    - field.storage.node.field_tags
+    - field.storage.user.user_picture
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.article
+    - system.cron
+    - system.theme
+    - taxonomy.vocabulary.tags
+    - user.role.administrator
+  optional:
+   - image.style.max_1300x1300
+   - image.style.max_2600x2600
+   - image.style.max_325x325
+   - image.style.max_650x650
+   - responsive_image.styles.narrow
+   - responsive_image.styles.wide

@@ -1,0 +1,5 @@
+
+; CMS News
+; -------
+
+dependencies[] = cms_news
